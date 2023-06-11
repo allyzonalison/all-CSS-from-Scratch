@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+    color: rgb(59, 144, 163, .55);
+    line-height: 1.2;
+}
+
+body {
+    display: grid;
+    background: linear-gradient(to bottom, #FFD8F2 0%, #ffffff 50%, #3B90A3 150%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40%;
+}
+
+.container {
+    width: 1230px;
+    
+    align-self: center;
+    justify-self: center;
+    margin-top: 120px;
+
+    display: grid;
+    grid-template-columns: 529px 413px 245px;
+    grid-template-rows: 235px 245px 322px;
+    gap: 15px;
+}
+
+/* CUPCAKES CONTAINER */
+.cupcakes {
+    width: 529px;
+    height: 496px;
+    background-color: #B7FFE5;
+    border-radius: 20px;
+
+    padding: 34px;
+}
+
+.p-cupcakes {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.cupcakes-desc {
+    padding-top: 8px;
+}
+
+.img-cupcake {
+    margin-top: 17px;
+    width: 458px;
+    height: 278px;
+}
+
+/* CAKES CONTAINER */
+.cakes {
+    background-color: #BBF7FF;
+    border-radius: 20px;
+    padding-top: 38px;
+    padding-left: 25px;
+
+    grid-column: 2 / 4;
+}
+
+.text-cake-container {
+    float: left;
+    width: 358px;
+}
+
+.p-cakes {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cakes-desc {
+    margin-top: 7px;
+}
+
+.img-cake {
+    float: left;
+    width: 227px;
+    height: 204px;
+}
+
+/* SMOOTHIES CONTAINER */
+.smoothies {
+    background-color: #FFD7D7;
+    border-radius: 20px;
+    padding-top: 13px;
+    padding-left: 25px;
+    padding-right: 30px;
+
+    grid-column: 2 / 3;
+}
+
+.p-smoothies {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.smoothies-desc {
+    margin-top: 10px;
+}
+
+.img-smoothies {
+    width: 296px;
+    height: 141px;
+}
+
+/* BREAD CONTAINER */
+.bread {
+    background-color: #FFD3DE;
+    border-radius: 20px;
+    padding: 13px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.p-bread {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-bread {
+    width: 225px;
+    height: 225px;
+}
+
+/* MACAROONS CONTAINER */
+.macaroons {
+    background-color: #F5D7FF;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.p-macaroons {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.macaroons-desc {
+    margin-top: 7px;
+}
+
+.macaroons-text-container {
+    text-align: left;
+    float: left;
+    margin-top: 13px;
+    margin-left: 21px;
+}
+
+.img-macaroons {
+    width: 267px;
+    height: 191px;
+}
+
+/* DONUTS CONTAINER */
+.donuts {
+    background-color: #FFD0F2;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.donuts-text-container {
+    float: left;
+    text-align: left;
+    margin-top: 13px;
+    margin-left: 25px;
+}
+
+.p-donuts {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.donuts-desc {
+    margin-top: 7px;
+}
+
+.img-donuts {
+    width: 381px;
+    height: 206px;
+}
+
+/* COFIS CONTAINER */
+.cofis {
+    background-color: #FFEED3;
+    text-align: center;
+}
+
+.p-cofis {
+    margin-top: 20px;
+    margin-left: 21px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.img-cofis {
+    margin-top: 40px;
+    width: 270px;
+    height: 200px;
+}
