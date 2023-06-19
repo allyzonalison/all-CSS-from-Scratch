@@ -1,4 +1,4 @@
-# all-CSS-from-Scratch
+# all-CSS-from-Scratch - just for fun
 
 ![Image Description](sample.png)
 
