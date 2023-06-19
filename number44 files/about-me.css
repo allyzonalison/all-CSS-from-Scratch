@@ -1,0 +1,42 @@
+.about-me-container {
+    display: flex;
+}
+
+.left-container-2 {
+    width: 50%;
+    background-color: #6DC8C2;
+
+    text-align: center;
+}
+
+.svg2 {
+    width: 618px;
+    height: 554px;
+}
+
+.right-container-2 {
+    margin: 120px auto;
+    width: 40%;
+}
+
+.about-me-desc {
+    font-size: 50px;
+}
+
+.about-me-exp {
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.download-cv {
+    background: linear-gradient(180deg, #FFC1EB 0%, #AB92FF 100%);
+    border-radius: 25px;
+    border: none;
+
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+
+    padding: 8px 35px;
+    margin-top: 25px;
+}
