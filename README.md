@@ -6,7 +6,7 @@
 
 ![Alt Text](number44.png)
 
-![Alt Text](lal.png)
+![Alt Text](lax.png)
 
 ![Alt Text](interior-site.jpg)
 
