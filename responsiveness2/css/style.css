@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    color: #444;
+}
+
+.header {
+    background-color: #FFE5F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    font-size: 2.5rem;
+    padding: 3.5rem;
+    font-weight: bold;
+}
+
+.btn-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.0rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+    width: 5%;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(#6DC8C2, #C7B8F8);
+}
+
+.first-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.left-container {
+    display: grid;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.metacute {
+    color: #6DC8C2;
+    font-size: 6.0rem;
+}
+
+.metacute-desc {
+    margin-top: 3%;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    width: 80%;
+}
+
+.second-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.right-container2 {
+    display: grid;
+    align-items: center;
+}
