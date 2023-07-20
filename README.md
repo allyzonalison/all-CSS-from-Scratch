@@ -14,3 +14,5 @@
 
 ![Alt Text](state.png)
 
+<a href='s.template.net/wp-content/uploads/2016/08/02081427/Standard-Sudoku-Template1.pdf'>LOLS</a>
+
